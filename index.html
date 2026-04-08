@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/manifest.json">
+    <title>Shado Scanner - NDIAYE ADAMA TECHN</title>
+    <style>
+        body { background: #111; color: #0f0; font-family: monospace; text-align: center; padding: 50px; }
+        .status { border: 1px solid #0f0; padding: 20px; display: inline-block; }
+        .flag { font-size: 2rem; }
+    </style>
+</head>
+<body>
+    <div class="status">
+        <h1>SHADO SCANNER ACTIVE 🇨🇮</h1>
+        <p>Utilisateur: NDIAYE ADAMA TECHN</p>
+        <p>Statut: Scan Cloud Vercel Automatisé</p>
+    </div>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js');
+        }
+    </script>
+</body>
+</html>
