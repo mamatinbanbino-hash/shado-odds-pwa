@@ -1,0 +1,9 @@
+/shado-odds-pwa
+├── api/
+│   └── check-odds.js   (Le scanner automatique)
+├── public/
+│   ├── manifest.json   (Pour l'installation PWA)
+│   └── sw.js           (Service Worker pour le mode hors-ligne)
+├── index.html          (L'interface dashboard)
+├── vercel.json         (La configuration Cron et déploiement)
+└── package.json        (Les dépendances)
