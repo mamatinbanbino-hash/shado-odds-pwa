@@ -3,24 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="manifest" href="/manifest.json">
-    <title>Shado Scanner - NDIAYE ADAMA TECHN</title>
+    <title>ND PREDICT - 60% Accuracy</title>
     <style>
-        body { background: #111; color: #0f0; font-family: monospace; text-align: center; padding: 50px; }
-        .status { border: 1px solid #0f0; padding: 20px; display: inline-block; }
-        .flag { font-size: 2rem; }
+        body { background: #0a0e14; color: #00ffcc; font-family: 'Segoe UI', sans-serif; text-align: center; }
+        .card { background: #161b22; border-radius: 15px; padding: 20px; margin: 20px auto; width: 85%; border: 1px solid #30363d; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
+        .ivory-flag { color: #ff9900; } /* Orange Côte d'Ivoire */
+        button { background: #ff9900; color: white; border: none; padding: 15px 30px; border-radius: 25px; font-weight: bold; cursor: pointer; }
     </style>
 </head>
 <body>
-    <div class="status">
-        <h1>SHADO SCANNER ACTIVE 🇨🇮</h1>
-        <p>Utilisateur: NDIAYE ADAMA TECHN</p>
-        <p>Statut: Scan Cloud Vercel Automatisé</p>
+    <div class="card">
+        <h1>ND PREDICT SYSTEM 🇨🇮</h1>
+        <p>Expertise : <span class="ivory-flag">NDIAYE ADAMA TECHN</span></p>
+        <hr style="border-color: #30363d;">
+        <p>🎯 Taux de réussite cible : <strong>60%</strong></p>
+        <p>📡 Analyse des variations de cotes : <strong>ACTIVE</strong></p>
+        <button onclick="window.location.href='/api/predict'">LANCER L'ANALYSE LIVE</button>
     </div>
-    <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js');
-        }
-    </script>
 </body>
 </html>
